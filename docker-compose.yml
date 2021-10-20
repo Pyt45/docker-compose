@@ -6,3 +6,7 @@ services:
       - "5000:5000"
   redis:
     image: "redis:alpine"
+  adminer:
+    image: "adminer"
+    ports:
+      - "5000:5000"
